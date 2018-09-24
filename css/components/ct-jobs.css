@@ -1,0 +1,31 @@
+.ct-jobs {
+  display: flex;
+  justify-content: center;
+  background: #ffffff;
+}
+.ct-jobs-block {
+  padding: 10px;
+  font-size: 15px;
+}
+.ct-jobs__button {
+  display: flex;
+  flex-direction: column;
+  background-color: #7db1ef;
+  font-family: inherit;
+  border-radius: 2px;
+  margin-top: 5px;
+  line-height: 1.4;
+}
+.ct-jobs__link {
+  text-decoration: none;
+  text-align: center;
+}
+.ct-jobs__link._white {
+  color: white;
+  padding-top: 10px;
+  text-transform: uppercase;
+}
+.ct-jobs__content {
+  font-size: 16px;
+  line-height: 30px;
+}

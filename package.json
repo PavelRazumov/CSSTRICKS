@@ -1,0 +1,27 @@
+{
+  "name": "csstricks",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "del": "^3.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-debug": "^4.0.0",
+    "gulp-inject": "^4.3.2",
+    "gulp-rename": "^1.4.0",
+    "gulp-svgmin": "^2.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-less": "^4.0.1",
+    "gulp-svg-sprite": "^1.4.0",
+    "gulp-svgstore": "^7.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pavel",
+  "license": "ISC",
+  "description": ""
+}

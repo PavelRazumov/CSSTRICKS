@@ -1,0 +1,77 @@
+@import "../common/color.less";
+@import "../common/font-size.less";
+
+.ct-navigation{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 7%;
+    @media (max-width: 1068px) {
+        width: 100%;
+        display: none;
+    }
+    background-color: black;
+    &:hover &__text{
+        transform: translate(0);
+        transition: transform 0.1s;
+        transition-delay: 0.02s;
+    }
+
+    &:hover &__icon{
+        transition: stroke 0.1s;
+
+        &._video{
+            stroke: @pink-nav;
+        } 
+    }
+    &__list {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0px 0px;
+      //  width: 100px;
+    }
+
+    &__list-item{
+        flex-grow: 1;
+        height: 80px;
+
+        &:first-child{
+            background-color: white;
+            &__icon{
+                stroke: @black;
+                fill: @almost-white;
+            }
+
+            &__text{
+                color: black;
+            }
+        }
+    }
+
+    &__icon{
+        width: 40px;
+        height: 40px;
+        stroke: @almost-white;
+    }
+
+    &__text{
+        margin: 0 auto;
+        font-size: @size-12;
+        color: @almost-white;
+        transform: translate(-300px);
+        display: inline-block;
+        &._home{
+            transform: translate(0);
+            color: black;
+        }
+    }
+    &__menu-link {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-width : 70px;
+        height: 90px;
+        text-decoration: none;
+    }
+}

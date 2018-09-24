@@ -1,0 +1,44 @@
+@import "../common/color.less";
+@import "../common/font-size.less";
+
+.ct-jobs{
+    display: flex;
+   // flex-direction: column;
+    justify-content: center;
+    background: #ffffff;
+   // height: 20vw;
+    &-block{
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    &__button{
+        display: flex;
+        flex-direction: column;
+        background-color: #7db1ef;
+        font-family: inherit;
+        border-radius: 2px;
+        margin-top: 5px;
+        line-height: 1.4;
+       
+    }
+
+    &__link{
+ 
+        text-decoration: none;
+        text-align: center;
+        
+        &._white{
+            color: white;
+            padding-top: 10px;
+
+            text-transform: uppercase;
+        }
+       
+    }
+    &__content{
+        font-size: 16px;
+        line-height: 30px;
+    }
+   
+}
